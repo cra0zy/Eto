@@ -44,6 +44,8 @@ namespace Eto.WinForms.Drawing
 			}
 		}
 
+		public string ThemeIcon { get; set; }
+
 		public void Create(Stream stream)
 		{
 			Control = new sd.Icon(stream);

@@ -127,5 +127,7 @@ namespace Eto.Mac.Drawing
 				return _frames;
 			}
 		}
+
+		public string ThemeIcon { get; set; }
 	}
 }

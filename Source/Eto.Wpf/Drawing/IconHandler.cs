@@ -103,6 +103,8 @@ namespace Eto.Wpf.Drawing
 
 		public IEnumerable<IconFrame> Frames => frames;
 
+		public string ThemeIcon { get; set; }
+
 		IconFrame GetLargestIcon()
 		{
 			var curicon = frames[0];

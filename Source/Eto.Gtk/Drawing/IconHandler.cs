@@ -193,5 +193,7 @@ namespace Eto.GtkSharp.Drawing
 				return frames;
 			}
 		}
+
+		public string ThemeIcon { get; set; }
 	}
 }

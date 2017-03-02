@@ -316,6 +316,11 @@ namespace Eto.Drawing
 		/// <value>The frames of the icon.</value>
 		public IEnumerable<IconFrame> Frames { get { return Handler.Frames; } }
 
+		public string ThemeIcon
+		{
+			get { return Handler.ThemeIcon; }
+			set { Handler.ThemeIcon = value; }
+		}
 
 		/// <summary>
 		/// Platform handler for the <see cref="Icon"/> class
@@ -349,6 +354,12 @@ namespace Eto.Drawing
 			/// </summary>
 			/// <value>The frames of the icon.</value>
 			IEnumerable<IconFrame> Frames { get; }
+
+			/// <summary>
+			/// Gets or sets the identifier.
+			/// </summary>
+			/// <value>The identifier.</value>
+			string ThemeIcon { get; set; }
 		}
 	}
 }
