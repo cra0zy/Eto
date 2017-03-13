@@ -273,6 +273,7 @@
       <DependentUpon>NativeMethods.tt</DependentUpon>
     </Compile>
     <Compile Include="Forms\LinuxTrayIndicatorHandler.cs" />
+    <Compile Include="Forms\UnityTaskbarHandler.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
   <PropertyGroup>

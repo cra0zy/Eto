@@ -277,6 +277,7 @@
     <Compile Include="Forms\OtherTrayIndicatorHandler.cs" />
     <Compile Include="Forms\LinuxNotificationHandler.cs" />
     <Compile Include="Forms\Controls\WebKit2WebViewHandler.cs" />
+    <Compile Include="Forms\UnityTaskbarHandler.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
   <PropertyGroup>

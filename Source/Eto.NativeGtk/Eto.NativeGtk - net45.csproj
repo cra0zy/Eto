@@ -307,6 +307,9 @@
     <Compile Include="..\Eto.Gtk\Forms\Controls\WebKit2WebViewHandler.cs">
       <Link>WebKit2WebViewHandler.cs</Link>
     </Compile>
+    <Compile Include="..\Eto.Gtk\Forms\UnityTaskbarHandler.cs">
+      <Link>UnityTaskbarHandler.cs</Link>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
   <PropertyGroup>
